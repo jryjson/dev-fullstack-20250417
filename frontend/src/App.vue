@@ -1,7 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import BooksList from "@/components/BooksList.vue";
 </script>
 
 <template>
@@ -14,7 +13,7 @@ import BooksList from "@/components/BooksList.vue";
   </header>
 
   <main>
-    <BooksList />
+    <TheWelcome />
   </main>
 </template>
 
